@@ -1,0 +1,47 @@
+html, body {
+    height: 100%;
+    overflow: hidden;
+    padding: 0;
+    margin: 0;
+}
+
+.slider-selection {
+	background: #BABABA;
+}
+
+#depthSlider {
+    width: 100%;
+}
+
+.container-fluid {
+	height: 100vw;
+	width: 100vw;
+    overflow: hidden;
+    padding: 0;
+}
+
+#controls {
+    z-index: 1;
+    overflow: visible;
+    background: rgb(100,100,100,0.5);
+}
+
+.dropdown-menu {
+    font-size: 0.70rem;
+}
+
+#files {
+    margin-top: 3px;
+}
+
+#graph {
+    margin: 0;
+    position: absolute;
+    top: 0;
+    left: 0;
+	height: 100vw;
+	width: 100vw;
+    overflow: hidden;
+    z-index: 0;
+    padding: 0;
+}
